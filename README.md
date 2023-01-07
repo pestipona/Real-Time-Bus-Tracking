@@ -31,7 +31,9 @@ After **cloning your repository** open the ```mapanimation.js``` file, and add y
 
 Navigate to the **directory location** of the files for the project. Look for the ```index.html``` file. Open any web browser such as ```Chrome``` or ```Firefox``` and drag and drop the ```index.html``` file into the browser.
 
-Click on the ```Boston area real time bus tracker``` button at the top left of the page to see the bus tracker move as shown below (screenshot). The information on the right side of the page is the actual coordinates of bus location as it moves along its route printed to the console. This can be referenced when needed and can be easily closed. 
+Click on the ```Boston area real time bus tracker``` button at the top left of the page to see the bus tracker move as shown below (screenshot). The information on the right side of the page is the actual coordinates of bus location as it moves along its route printed to the console. This can be referenced when needed and can be easily closed.
+
+The bus movement might be a bit slow since the ```setTimeout()``` function to pull data from MBTA is set to 10 seconds. To make the animation smoother or faster the data can be refreshed on a shorter time interval, but this can risk the user's API Token from being banned from MBTA for flooding it with requests. 
 
 https://user-images.githubusercontent.com/88525094/211162133-50b3322f-005f-48ed-ab89-e32ad1cf1c82.mp4
 
