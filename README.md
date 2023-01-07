@@ -1,6 +1,6 @@
 # Real Time Bus Tracker:
 
-![](ScreenShots/01_ScreenShot.png)
+![](ScreenShots_&_Videos/01_ScreenShot.png)
 
 ## I. Project Description:
 
