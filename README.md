@@ -33,7 +33,7 @@ Navigate to the **directory location** of the files for the project. Look for th
 
 Click on the ```Boston area real time bus tracker``` button at the top left of the page to see the bus tracker move as shown below (screenshot). The information on the right side of the page is the actual coordinates of bus location as it moves along its route printed to the console. This can be referenced when needed and can be easily closed. 
 
-
+https://user-images.githubusercontent.com/88525094/211162133-50b3322f-005f-48ed-ab89-e32ad1cf1c82.mp4
 
 ## III. Roadmap of future improvements:
 
