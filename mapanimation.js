@@ -1,5 +1,5 @@
 // import mapbox public api token
-mapboxgl.accessToken = 'pk.eyJ1IjoicGVzdGlwb25hIiwiYSI6ImNsY2pvd2Q0aDZsMTIzbnBqbDE3Y25xdzEifQ.SJcJUIBw9rtvGfkroUy7Cw';
+mapboxgl.accessToken = '<PLACE-YOUR-PUBLIC-TOKEN-HERE>';
 
 // create a map with style, coordinates, and zoom
 var map = new mapboxgl.Map({
@@ -53,5 +53,5 @@ async function move() {
     setTimeout(() => {
         marker.setLngLat([Lng, Lat]);
         move();
-    }, 10000);
+    }, 8000);
 }

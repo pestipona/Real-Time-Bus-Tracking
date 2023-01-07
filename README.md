@@ -8,13 +8,13 @@ This **web application** tracks the **real-time bus location** of one of the bus
 
 This project demonstrates many concepts covered in **asynchronous programming**. Most modern **web pages** relly on hundreds of servers to incorporate data, and these all have to be done **asynchronously**. To get data for the bus locations an ```async function()``` was used to ```await``` for information from the API.
 
-### Imprevements:
+### Modifications:
 
 This is a modification of the "Real Time Bus Tracker" in MIT's coding bootcamp. A couple of improvements I made from the original exercise are the following:
-* I incorporated real-time data for the bus locations. The original exercise used an array of coordinates for the Bus Stops along Massachusetts Ave as points for the Marker to move. I replaced this with the actual latitude and longitude of the Bus, so the Marker moves based on the actual bus location every 10 seconds.
-* The map version was changed from the original exercise from the map styles I found in mapbox.   
+* Real-time data was incorporated for the bus locations. The original exercise used an array of coordinates for the Bus Stops along Massachusetts Ave as points for the Marker to move. I replaced this with the actual latitude and longitude of the Bus, so the Marker moves based on the actual bus location every 10 seconds.
+* The map version was changed from the original exercise from one of the map styles found in mapbox.   
 * The default Map Marker from mapbox was changed to a custom Bus icon to better reflect the movement of the Marker.
-* Added some color to the background for the button to make it more visible.
+* Some color was added to the background for the button to make it more visible.
 
 
 ## II. How to Run:
@@ -27,10 +27,17 @@ Cloning your own repository would depend on your local machine's **Operating Sys
 
 [Cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?platform=linux)
 
-After **cloning your repository** open the ```mapanimation.js``` file, and add your mapbox public token.
+After **cloning your repository** open the ```mapanimation.js``` file, and add your mapbox public token on line 2 as indicated in the comments.
 
-navigate to the **directory location** of the files for the project. Look for the ```index.html``` file which is the HTML file of the program. Open any web browser such as ```Chrome``` or ```Firefox``` and drag and drop the ```index.html``` file into the browser. This initializes and runs the program.
+Navigate to the **directory location** of the files for the project. Look for the ```index.html``` file. Open any web browser such as ```Chrome``` or ```Firefox``` and drag and drop the ```index.html``` file into the browser.
 
+Click on the ```Boston area real time bus tracker``` button at the top left of the page to see the bus tracker move as shown below (screenshot). The information on the right side of the page is the actual coordinates of bus location as it moves along its route printed to the console. This can be referenced when needed and can be easily closed. 
+
+
+
+## III. Roadmap of future improvements:
+
+I would like to add the following features and improvements for the web application to enhance user experience.
 
 * a navbar with drop down menus for options
 * make the marker icon rotate to the direction of travel
@@ -39,3 +46,7 @@ navigate to the **directory location** of the files for the project. Look for th
 * menu to switch between light and dark mode
 * improve starting location of marker
 * side-panel that shows the route in text with icons in real-time
+
+## IV. License Information:
+
+The following [document](./LICENSE) shows licensing information from MIT about the free open source code of the program.
